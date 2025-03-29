@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --maintextcolor: #000000;
+    --mainbagcolor: #ffffff; 
+    --mainpcolor: #000000a7; 
+    --hovertextcolor:#000000;
+}
+body{
+    background-color: var(--mainbagcolor)
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: var(--mainbgcolor);
+}
+.navbar-inverse {
+    background-color:var(--mainbgcolor);
+    border-color: var(--mainbagcolor);
+}
+.navbar-nav{
+    margin-left: 122px;
+    margin-top: 20px;
+}
+.navbar-inverse .navbar-brand {
+    color:var(--maintextcolor);
+    font-weight: 600;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.navbar-inverse .navbar-nav>li>a, .nav a{
+    color: var(--maintextcolor)
+}
+.nav .switch .fa-solid{
+    margin-top: 34px;
+    font-size: 33px;
+    margin-left: -80px;
+    cursor: pointer;
+    color: var(--maintextcolor);
+}
+.nav>li>a{
+    font-size: 16px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.navbar-right li{
+     margin-left: 30px;
+}
+.navbar-right li a, .btn-primary{
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -40px;
+    background-color: #ffc800;
+    border-radius: 20px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:focus,.nav, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #ffffff00;
+    color: var(--hovertextcolor) ;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover::after{
+    content: "•";
+    color: var(--maintextcolor); 
+    font-size: 16px; 
+    display: block; 
+    text-align: center; 
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a::after{
+    content: "•";
+    color: var(--maintextcolor); 
+    font-size: 16px; 
+    display: block; 
+    text-align: center; 
+}
+.indexrow{
+    width: 1130px;
+    margin: 160px 30px;
+    position: relative;
+}
+.meore img{
+    width: 640px;
+    overflow: hidden;
+    height: 540px;
+    margin-left: -10px;
+}
+.card-body h2{
+    font-size: 64px;
+    color: var(--maintextcolor);
+    font-weight: 900;
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.card-text{
+    font-size: 28px;
+    width: 510px;
+    margin-bottom: 110px;
+    position: relative;
+    color: var(--mainpcolor);
+}
+.btn-primary {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--maintextcolor);
+    border: #ffc800;
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    padding-top: 10px;
+}
+.pirveli p{
+    margin-left: 50px;
+}
+.btn-primary:hover, .navbar-right li a:hover{
+    color: var(--maintextcolor);
+    background-color: #ffc80067;
+}
+.navbar-inverse .navbar-toggle{
+    background-color: #ffc800d0;
+}
+.navbar-inverse .navbar-toggle:hover{
+    background-color: #e7b80c8d;
+}
+/* ==========================================
+=========================================== */
+.aboutrow{
+    width: 1130px;
+    margin: 160px 50px;
+}
+.aboutrow img{
+    width: 100%;
+    overflow: hidden;
+    margin-left: -30px;
+}
+.meoresur img{
+    width: 550px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.aboutrowori{
+    position: relative;
+}
+.meorestatia{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+.meorestatia h2, .statia h2{
+    font-size: 46px;
+}
+.meorestatia  p, .statia p{
+    font-size: 26px;
+    color: var(--mainpcolor);
+}
+/* ==================================
+==================================== */
+.row{
+    margin: 0;
+}
+.col-sm-4 p{
+    font-size: 36px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    color: var(--maintextcolor);
+}
+.serstatia{
+    width: 300px;
+    height: 300px;
+    border: #878282 solid 2px;
+    box-shadow: 0px 1px 6px rgba(77, 74, 74, 0.637);
+    margin-left: 100px;
+    border-radius: 14px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.serstatia h2{
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+    position: absolute;
+    right: -6px;
+    top:-10px;
+    z-index: 1;
+    text-align: center;
+    color: var(--maintextcolor);
+}
+
+.serstatia p{
+    font-size: 12px;
+    width: 240px;
+    position: absolute;
+    top: 134px;
+    left: 30px;
+}
+.card-img-top{
+    width:160px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.card-link{
+    position: absolute;
+    bottom: 20px;
+    left: 110px;
+    font-weight: bolder;
+    color: var(--maintextcolor);
+}
+.sersur{
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.sersur img{
+    width: 100%;
+    overflow: hidden;
+}
+.card-body h2{
+    font-size: 38px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.bolo{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.logo1, .logo2{
+    width: 20px;
+    height: 20px;
+   
+}
+.logo1{
+    background-image: url(../img/apple-brands.svg);
+    background-repeat: no-repeat;
+}
+.logo2{
+    background-image: url(../img/google-play-brands.svg);
+    background-repeat: no-repeat;
+}
+button{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #ffc800;
+    margin-left: 30px;
+    gap: 10px;
+    padding: 10px ;
+}
+button a{
+    color: var(--maintextcolor);
+    font-weight: bold;
+}
+button:hover{
+    background-color: #ffca0ac6;
+}
+button a:hover{
+    color: var(--maintextcolor);
+}
